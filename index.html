@@ -1,0 +1,208 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            text-decoration: none;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .roboto-font {
+            font-family: "Roboto", serif;
+        }
+
+        .bebas-neue-font {
+            font-family: "Bebas Neue", serif;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="bg-[#FFFBF0] ">
+        <nav class="pt-[38px] w-[83.94%] my-0 mx-auto flex justify-between items-center text-[#3C3C3C] ">
+            <div class="logo w-[224px] ">
+                <img src="icons/logo.png" alt="">
+            </div>
+            <div class="menubar max-[576px]:hidden">
+                <ul class="flex gap-[56px] font-semibold">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Product</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+
+            </div>
+            <div class="toogle-bar hidden  max-[576px]:inline  bg-transparent">
+                <span class="toogle block w-[23px] h-[3px] bg-[#363958] my-[4px] rounded-[6px]"></span>
+                <div class="toogle-bar bg-transparent">
+                    <span class="toogle block w-[23px] h-[3px] bg-[#363958] my-[4px] rounded-[6px]"></span>
+                    <div class="toogle-bar bg-transparent">
+                        <span class="toogle block w-[23px] h-[3px] bg-[#363958] my-[4px] rounded-[6px]"></span>
+
+
+        </nav>
+
+        <div
+            class="banner pt-[38px] w-[83.94%] my-0 mx-auto flex max-[576px]:flex-col items-center gap-[150px] py-[120px] max-[576px]:gap-[35px]">
+            <div class="banner-title">
+                <h2 class="bebas-neue-font text-[72px] leading-[80px]"><span class="text-[#FABE4C]">Be the
+                        Penguins</span><br><span class="text-[#363958]"> of Winter</span></h2>
+
+                <p class="text-[#3E3E3E] w-[71.14%]">Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry.</p>
+                <button
+                    class="px-[33px] py-[16px] bg-gradient-to-b from-[#A4BC46] to-[#85A019] flex gap-[10px] items-center rounded-[10px] mt-[10px]"><img
+                        class="w-[20px]" src="icons/shopping-cart 1.png" alt="">
+                    <p class="font-semibold text-[white] ">BUY NOW</p>
+                </button>
+
+            </div>
+            <div class="banner-image">
+                <img class="w-[410px] h-[auto]" src="icons/bg2.png" alt="">
+
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- ............... Women Jacket Section Updated.......... -->
+
+        <div class=" women-jacket pt-[38px] w-[83.94%] my-0 mx-auto mb-[85px]">
+            <h3 class="bebas-neue-font text-[#363958]  text-[48px] text-center">WOMAN JACKET</h3>
+            <div class="card-container flex max-[576]: flex-col gap-[30px]">
+                <div class="card p-[18px] shadow-md rounded-[20px]">
+                    <div class="bg-[#F1F1F1] rounded-[20px] p-[20px] mb-[15px]"><img class="w-[290px] "
+                            src="images/jacket-1.png" alt=""></div>
+                    <h5 class="font-bold text-[24px] my-[10px] text-[#363958]">Yellow Coat Jacket </h5>
+                    <p>Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+                    <div class="flex gap-[65px] items-center">
+                        <p class="text-[#FABE4C] text-[34px] font-bold">$234</p>
+                        <button
+                            class="px-[33px] py-[16px] bg-gradient-to-b from-[#A4BC46] to-[#85A019] flex gap-[10px] items-center rounded-[10px] mt-[10px]"><img
+                                class="w-[20px]" src="icons/shopping-cart 1.png" alt="">
+                            <p class="font-semibold text-[white] ">BUY NOW</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="card p-[18px] shadow-md rounded-[20px]">
+                    <div class="bg-[#F1F1F1] rounded-[20px] p-[20px] mb-[15px]"><img class="w-[290px] "
+                            src="images/jacket-2.png" alt=""></div>
+                    <h5 class="font-bold text-[24px] my-[10px] text-[#363958]">Ladies Jacket </h5>
+                    <p>Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+                    <div class="flex gap-[65px] items-center">
+                        <p class="text-[#FABE4C] text-[34px] font-bold">$234</p>
+                        <button
+                            class="px-[33px] py-[16px] bg-gradient-to-b from-[#A4BC46] to-[#85A019] flex gap-[10px] items-center rounded-[10px] mt-[10px]"><img
+                                class="w-[20px]" src="icons/shopping-cart 1.png" alt="">
+                            <p class="font-semibold text-[white] ">BUY NOW</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="card p-[18px] shadow-md rounded-[20px]">
+                    <div class="bg-[#F1F1F1] rounded-[20px] p-[20px] mb-[15px]"><img class="w-[290px] "
+                            src="images/jacket-3.png" alt=""></div>
+                    <h5 class="font-bold text-[24px] my-[10px] text-[#363958]">Woman Leather Jacket </h5>
+                    <p>Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+                    <div class="flex gap-[65px] items-center">
+                        <p class="text-[#FABE4C] text-[34px] font-bold">$234</p>
+                        <button
+                            class="px-[33px] py-[16px] bg-gradient-to-b from-[#A4BC46] to-[#85A019] flex gap-[10px] items-center rounded-[10px] mt-[10px]"><img
+                                class="w-[20px]" src="icons/shopping-cart 1.png" alt="">
+                            <p class="font-semibold text-[white] ">BUY NOW</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- ............... Man Jacket Section Updated.......... -->
+
+        <div class=" man-jacket pt-[38px] w-[83.94%] my-0 mx-auto mb-[85px]">
+            <h3 class="bebas-neue-font text-[#363958]  text-[48px] text-center">MAN JACKET</h3>
+            <div class="card-container flex max-[576px]:flex-col gap-[30px]">
+                <div class="card p-[18px] shadow-md rounded-[20px]">
+                    <div class="bg-[#F1F1F1] rounded-[20px] p-[20px] mb-[15px]"><img class="w-[290px] "
+                            src="images/jacket-4.png" alt=""></div>
+                    <h5 class="font-bold text-[24px] my-[10px] text-[#363958]">Snowboard Jacket Mens </h5>
+                    <p>Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+                    <div class="flex gap-[65px] items-center">
+                        <p class="text-[#FABE4C] text-[34px] font-bold">$234</p>
+                        <button
+                            class="px-[33px] py-[16px] bg-gradient-to-b from-[#A4BC46] to-[#85A019] flex gap-[10px] items-center rounded-[10px] mt-[10px]"><img
+                                class="w-[20px]" src="icons/shopping-cart 1.png" alt="">
+                            <p class="font-semibold text-[white] ">BUY NOW</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="card p-[18px] shadow-md rounded-[20px]">
+                    <div class="bg-[#F1F1F1] rounded-[20px] p-[20px] mb-[15px]"><img class="w-[290px] "
+                            src="images/jacket-5.png" alt=""></div>
+                    <h5 class="font-bold text-[24px] my-[10px] text-[#363958]">Man Leather Jackets </h5>
+                    <p>Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+                    <div class="flex gap-[65px] items-center">
+                        <p class="text-[#FABE4C] text-[34px] font-bold">$234</p>
+                        <button
+                            class="px-[33px] py-[16px] bg-gradient-to-b from-[#A4BC46] to-[#85A019] flex gap-[10px] items-center rounded-[10px] mt-[10px]"><img
+                                class="w-[20px]" src="icons/shopping-cart 1.png" alt="">
+                            <p class="font-semibold text-[white] ">BUY NOW</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="card p-[18px] shadow-md rounded-[20px]">
+                    <div class="bg-[#F1F1F1] rounded-[20px] p-[20px] mb-[15px]"><img class="w-[290px] "
+                            src="images/jacket-6.png" alt=""></div>
+                    <h5 class="font-bold text-[24px] my-[10px] text-[#363958]">Man Casual Jackets </h5>
+                    <p>Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+                    <div class="flex gap-[65px] items-center">
+                        <p class="text-[#FABE4C] text-[34px] font-bold">$234</p>
+                        <button
+                            class="px-[33px] py-[16px] bg-gradient-to-b from-[#A4BC46] to-[#85A019] flex gap-[10px] items-center rounded-[10px] mt-[10px]"><img
+                                class="w-[20px]" src="icons/shopping-cart 1.png" alt="">
+                            <p class="font-semibold text-[white] ">BUY NOW</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
